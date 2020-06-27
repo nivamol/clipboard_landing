@@ -1,0 +1,10 @@
+/* ---- MIXINS ----*/
+
+@mixin mobile {
+  width: 375px;
+}
+
+@mixin desktop {
+  width: 1440px;
+}
+
