@@ -4,15 +4,88 @@
 /*---- generals ---- */
 /* ---- MIXINS ----*/
 /* ---- BODY ----*/
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+/* ---- MAIN ---- */
+.main {
+  height: 760px;
+  width: 100%;
+  text-align: center;
+}
+
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
 /* ---- SECTION ----*/
 /* ---- DIV ----*/
+/*main*/
+.header__logo {
+  background: url(/assets/images/bg-header-mobile.png) no-repeat;
+  height: 300px;
+}
+
+.header__buttons {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+}
+
 /* ---- NAV ----*/
 /* ---- Link ----*/
 /* ---- List ----*/
 /* ---- TITLE ----*/
+/* main */
+.info_title {
+  margin: 0px;
+  font-size: 32px;
+  color: #4c545d;
+  padding: 0 23px;
+}
+
 /* ---- PGRAPHS ----*/
+/* main */
+.info_parag {
+  text-align: center;
+  padding: 0 34px;
+  color: #9fabb2;
+}
+
 /* ---- Button ----*/
+/*main*/
+.button {
+  width: 300px;
+  padding: 16px 5px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-size: 18px;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button_ios {
+  background-color: #26baa4;
+  box-shadow: 0px 13px 20px -7px rgba(38, 186, 164, 0.2);
+}
+
+.button_mac {
+  background-color: #6173ff;
+  box-shadow: 0px 13px 20px -7px rgba(38, 186, 164, 0.1);
+}
+
 /* ---- Form ----*/
 /* ---- Image ----*/
+/* main */
+.header_svg {
+  margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 100px;
+}

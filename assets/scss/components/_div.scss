@@ -1,1 +1,14 @@
 /* ---- DIV ----*/
+
+/*main*/
+
+.header__logo {
+  background: url(/assets/images/bg-header-mobile.png) no-repeat;
+  height: 300px;
+}
+
+.header__buttons {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+}
