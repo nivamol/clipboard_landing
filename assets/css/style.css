@@ -20,6 +20,10 @@ body {
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
 /* ---- SECTION ----*/
+.features {
+  text-align: center;
+}
+
 /* ---- DIV ----*/
 /*main*/
 .header__logo {
@@ -31,6 +35,16 @@ body {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
+}
+
+.info2__feature {
+  margin-bottom: 60px;
+  padding: 0 30px;
+  padding: 0px 34px;
+}
+
+.features__info2 {
+  margin-bottom: 200px;
 }
 
 /* ---- NAV ----*/
@@ -45,11 +59,30 @@ body {
   padding: 0 23px;
 }
 
+.infoF__title {
+  padding: 0 32px;
+  color: #4c545d;
+}
+
+.feauture__title {
+  color: #4c545d;
+}
+
 /* ---- PGRAPHS ----*/
 /* main */
 .info_parag {
   text-align: center;
   padding: 0 34px;
+  color: #9fabb2;
+}
+
+.infoF__pgraph {
+  color: #9fabb2;
+  height: 115px;
+  padding: 0 32px;
+}
+
+.feauture__pgraph {
   color: #9fabb2;
 }
 
@@ -81,7 +114,16 @@ body {
 }
 
 /* ---- Form ----*/
+/* ---- FIGURE ---- */
+.feautures__figure {
+  margin-bottom: 50px;
+}
+
 /* ---- Image ----*/
+.feautures__img {
+  max-width: 100%;
+}
+
 /* main */
 .header_svg {
   margin: 0 auto;
