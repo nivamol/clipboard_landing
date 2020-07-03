@@ -24,6 +24,10 @@ body {
   text-align: center;
 }
 
+.features2 {
+  text-align: center;
+}
+
 /* ---- DIV ----*/
 /*main*/
 .header__logo {
@@ -47,6 +51,14 @@ body {
   margin-bottom: 200px;
 }
 
+.features2__info {
+  margin-bottom: 60px;
+}
+
+.icon_3 {
+  margin-bottom: 130px;
+}
+
 /* ---- NAV ----*/
 /* ---- Link ----*/
 /* ---- List ----*/
@@ -68,6 +80,21 @@ body {
   color: #4c545d;
 }
 
+.feauture2__title {
+  padding: 0 31px;
+  color: #4c545d;
+}
+
+.info2__title {
+  padding: 0 35px;
+  color: #4c545d;
+}
+
+.features2_title2 {
+  color: #4c545d;
+  margin-top: 45px;
+}
+
 /* ---- PGRAPHS ----*/
 /* main */
 .info_parag {
@@ -83,6 +110,22 @@ body {
 }
 
 .feauture__pgraph {
+  color: #9fabb2;
+}
+
+.feauture2__pgraph {
+  color: #9fabb2;
+  padding: 0 32px;
+}
+
+.info2__pgraph {
+  padding: 0 30px;
+  color: #9fabb2;
+  margin-bottom: 95px;
+}
+
+.features2_pgraph2 {
+  margin-bottom: 60px;
   color: #9fabb2;
 }
 
@@ -119,8 +162,16 @@ body {
   margin-bottom: 50px;
 }
 
+.features2__image {
+  margin-bottom: 50px;
+}
+
 /* ---- Image ----*/
 .feautures__img {
+  max-width: 100%;
+}
+
+.features2__image {
   max-width: 100%;
 }
 
