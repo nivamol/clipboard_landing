@@ -33,6 +33,10 @@ body {
   margin-bottom: 170px;
 }
 
+.download {
+  text-align: center;
+}
+
 /* ---- DIV ----*/
 /*main*/
 .header__logo {
@@ -100,6 +104,11 @@ body {
   margin-top: 45px;
 }
 
+.download__title {
+  padding: 0 41px;
+  color: #4c545d;
+}
+
 /* ---- PGRAPHS ----*/
 /* main */
 .info_parag {
@@ -132,6 +141,12 @@ body {
 .features2_pgraph2 {
   margin-bottom: 60px;
   color: #9fabb2;
+}
+
+.download__pgraph {
+  padding: 0 35px;
+  color: #9fabb2;
+  margin-bottom: 50px;
 }
 
 /* ---- Button ----*/
