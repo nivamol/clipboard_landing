@@ -19,6 +19,12 @@ body {
 
 /* ---- HEADER ----*/
 /* ---- FOOTER ----*/
+footer {
+  text-align: center;
+  height: 500px;
+  margin-top: 140px;
+}
+
 /* ---- SECTION ----*/
 .features {
   text-align: center;
@@ -68,8 +74,37 @@ body {
   margin-bottom: 130px;
 }
 
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.links {
+  display: inherit;
+  flex-direction: column;
+}
+
+.links:nth-of-type(1) {
+  margin-top: 30px;
+}
+
+.social-media {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
 /* ---- NAV ----*/
 /* ---- Link ----*/
+.link {
+  margin-bottom: 35px;
+  text-decoration: none;
+  color: #4c545d;
+  font-size: 17px;
+}
+
 /* ---- List ----*/
 /* ---- TITLE ----*/
 /* main */
@@ -197,6 +232,11 @@ body {
 
 .features2__image {
   max-width: 100%;
+}
+
+.footer__img {
+  height: 55px;
+  width: 55px;
 }
 
 /* main */
